@@ -67,7 +67,7 @@ class _ExpensesState extends State<Expenses> {
   Widget build(context) {
     final currentWidth = MediaQuery.of(context).size.width;
 
-    Widget mainContent = const Center(child: Text('No Expenses Found!'));
+    Widget mainContent = const Center(child: Text('Try ko lang mag commit'));
 
     if (_registeredExpenses.isNotEmpty) {
       mainContent = ExpensesList(
